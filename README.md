@@ -8,7 +8,7 @@ MinGW 4.x cannot be uploaded by GitHub's size limit (25MB).<br>
 # Instructions
 
 1. download MinGW and Test .ZIP<br>
-2. unlock security feature of Windows and unzip them<br>
-3. set PATH like "C:\MinGW\bin;" see NonnonWin.txt for details<br>
+2. unlock security feature of Windows and unzip them (use arcdrop.exe if you want)<br>
+3. set PATH like "C:\MinGW\bin;" see ProjectNonnon.txt for details<br>
 4. run .BAT<br>
 5. test it<br>
