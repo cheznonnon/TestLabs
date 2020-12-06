@@ -8,8 +8,8 @@ MinGW 4.x cannot be uploaded by GitHub's size limit (25MB).
 
 # Instructions
 
-1 download MinGW and Test .ZIP
-2 unlock security feature of Windows and unzip them
-3 set PATH like "C:\MinGW\bin;"
-4 run .BAT
-5 test it
+1. download MinGW and Test .ZIP<br>
+2. unlock security feature of Windows and unzip them<br>
+3. set PATH like "C:\MinGW\bin;"<br>
+4. run .BAT<br>
+5. test it<br>
