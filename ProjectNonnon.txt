@@ -1,0 +1,637 @@
+
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+Project Nonnon
+
+	Keep-It-Simple Libraries
+
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+Details : Unblock a ZIP file
+
+	newer version of Windows have a security feature
+
+	[ How to unblock ]
+
+		1 : open file properties
+		2 : find "Security" at the bottom side
+		3 : press "Unblock" button
+		4 : press "Apply" button
+		5 : then unzip/extract a file
+
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+How To Compile : #1 : MinGW
+
+	1 : install "MinGW" project's GCC
+
+
+	2 : set "Environmental Variables" for GCC
+
+		+ logoff or reboot may be needed
+
+		[Win9x]
+
+		AUTOEXEC.BAT
+
+		+ edit as a text file
+		+ may be a hidden file
+
+
+		path %PATH%;c:\mingw\bin;
+
+		+ "%PATH%;" = "C:\WINDOWS;C:\WINDOWS\COMMAND;"
+
+
+		[WinNT]
+
+		use "System Properties"
+
+		1 : tab "Advanced"
+		2 : button "Environment Variables"
+		3 : group "User Variables for USER_NAME"
+		4 : button "New..."
+		5 : window "New User Variable"
+		6 : set "Variable Name:" "PATH"
+		7 : set "Variable Value:" "C:\MinGW\bin;"
+		8 : button "OK"
+
+	3 : compile with batch files in each application folders
+
+		use ".bat" in each folder
+
+		+ Win9x : use Nonnon Apps for more convenient
+
+
+	4 : install additional headers and libraries if needed
+
+		see this file for details
+
+		+ nonnon/neutral/jpg.c
+
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+How To Compile : #2 : Visual C++ 2017
+
+	1 : download and install "Visual Studio Community Edition"
+
+	2 : make an empty project
+
+	3 : "C:/User/[USER_NAME]/source/repos" has the project folder
+
+	4 : copy source code
+
+		+ "repos/[SOFTWARE_NAME]/[SOFTWARE_NAME]/*.c"
+		+ "repos/[SOFTWARE_NAME]/nonnon/*"
+
+	5 : register source code
+
+		1 : DnD to the main entry point to "Source File"
+		2 : DnD to the resource file to "Resource File"
+
+		+ for example
+		+ "hunyapiyo3.c"  will be "Source File"
+		+ "hunyapiyo3.rc" will be "Resource File"
+
+	6 : tweak properties
+
+		check toolbar as "Release" "x64"
+
+		+ profiles are different
+		+ among "Debug" "Release" "x86" and "x64"
+
+		1 : Solution Explorer
+		2 : menu click [PROJECT_NAME]
+		3 : "property"
+
+			1 : "C/C++"
+			2 : "Advanced"
+			3 : "Compile as C"
+
+			1 : "C/C++"
+			2 : "Code Generation"
+			3 : "Runtime Library"
+			4 : set Multi-thread(/MT)
+
+			1 : "Linker"
+			2 : Manifest File
+			3 : "Generate manifest file"
+			4 : "No(/MANIFEST:NO)"
+
+			1 : "Linker"
+			2 : "System"
+			3 : "Subsystem"
+			4 : "Windows(/SUBSYSTEM:WINDOWS)"
+
+	7 : build it
+
+		"repos/[SOFTWARE_NAME]/Release"     has x86 .EXE
+		"repos/[SOFTWARE_NAME]/X64/Release" has x64 .EXE
+
+		+ NonnonWin supports x64 only
+
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+Extra Info
+
+	"gcc -Os"
+
+	+ use at compiling, EXE size will shrink
+
+	+ bugs were found, see below
+
+
+	"gcc -s"
+
+	+ use at linking, EXE size will shrink dramatically
+
+
+	"gcc -g"
+
+	+ use at linking, you can use gdb debugger
+	+ [Needed] : replace "-s" to "-g"
+
+		[ how to use ]
+
+		+ 1 : "gdb exename" to run
+		+ 2 : "run" to start
+		+ 3 : a program may stop when troubled
+		+ 4 : "next" to resume
+		+ 5 : "q" to quit
+
+
+	mingw-runtime-3.14
+
+	+ EXE size will bloat 20KB when you use snprintf()
+
+
+	mingw-runtime-3.15.2
+
+	+ multilingual support is dropped
+	+ "-finput-charset=cp932 -fexec-charset=cp932"
+
+	+ you cannot use non-ASCII code directly
+	+ ANSI    : char    *str = "\x94\x4c\x82\xcc\x8e\xe8"; // "”L‚ÌŽè" in Shift-JIS
+	+ Unicode : wchar_t *str = "\x732b\x306e\x624b";       // "”L‚ÌŽè" in Unicode LE
+
+
+	gcc version 3.x
+
+	+ optimization has bug
+	+ -Os : floating point comparison will not work accurately
+
+
+	gcc version 4.x
+
+	+ bloat 100KB per application
+	+ global static variables handling is changed
+
+	+ optimization also has bug
+	+ -O2 : use "__attribute__( ( optimize( "-O0" ) ) )"
+
+	+ don't use -O and -mtune together
+	+ Windows Defender handles as a malware
+
+
+	Microsoft Layer for Unicode (MSLU)
+
+	+ MSLU support is dropped because of these reasons
+
+	+ a : some POSIX API returns error
+	+ b : always fault at first run
+	+ c : Win95 : statusbar control doesn't function
+
+	+ How to use MSLU
+
+	+ 1 : get "unicows.dll" from MS download center
+	+ 2 : get "libunicows" for GCC
+	+ 3 : "-lunicows -lother_libs..." to link
+
+	+ system locale only available because MSLU is fake layer
+
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+Naming Convention
+
+	[ token name ]
+
+	"neutral/bmp.c" has "struct n_bmp"
+
+	+ n_bmp has bitmap data for read/write/load/save
+	+ functions in "bmp.c" have n_bmp* as the first parameter
+
+		n_bmp_new( &bmp, 100, 100 );
+		+ make a 100x100 bitmap on memory
+
+
+	[ function name ]
+
+	n_posix_sprintf_literal()
+
+	+ n       : nonnon
+	+ posix   : category(file name) like "neutral/posix.c"
+	+ sprintf : verb
+	+ literal : ANSI/Unicode auto-switcher for string literal
+
+	+ this module is macro for sprintf() and swprintf()
+	+ and format string will be auto-switched
+
+
+	[ verb templates ]
+
+	+ new() free()
+	+ init() loop() exit()
+	+ load() save()
+	+ add() del() mod()
+	+ a2b() b2a()
+
+	+ this is like symmetric / frame-structured / reversible
+
+
+	[ posix.c : ANSI/Unicode Switcher ]
+
+	1 : put "#define UNICODE" at the first
+	2 : include "neutral/posix.c"
+	3 : additional headers inclusion here
+	4 : use n_posix_*() functions
+
+	+ <windows.h> will be auto-included in "neutral/posix.c"
+	+ because timeGetTime() will make some linker error
+
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+Unicode Support and Limitation
+
+	use n_win_commandline() to get a parameter
+
+		don't use a parameter of main()/WinMain()
+
+		a : MinGW GCC doesn't support wmain()/wWinMain()
+		b : sanitize an input string
+
+
+	use n_posix_literal() or n_*_literal()
+
+		"string" will be L"string" automatically
+
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+/nonnon
+
+	more information will be written in each files
+
+	information symbols are like these
+
+		[!]		Information
+		[?]		Reason
+		[x]		Problem
+		[Condition]	Condition
+		[Mechanism]	Usage or Details
+		[Needed]	Important Code
+		[Patch]		Patched Code
+		[MSDN]		written in MSDN
+
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+/nonnon/com
+
+	[ Component Object Model Helper ]
+
+	com/_template
+		event sink template
+
+	com/debug
+		debug facility
+
+	com/guid
+		string-based GUID collection
+
+	com/patch
+		missing symbols patch for MinGW
+
+	com/WebBrowser
+		IWebBrowser/IWebBrowser2 helper
+
+	com
+		COM Wrapper
+
+	IShellLink
+		Windows Shortcut (.LNK) handler
+
+	WebBrowser
+		CLSID_WebBrowser helper
+
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+/nonnon/floss
+
+	[ FLOSS Directly Embeddable Layer ]
+
+	libjpeg
+		libjpeg implementation
+
+	zlib
+		zlib implementation
+
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+/nonnon/game
+
+	[ Nonnon Game Layer ]
+
+	chara
+		character object maker
+		drag and drop enabler
+
+	click
+		multi-instance click handler
+
+	direct2d
+		Nonnon Direct2D1 Bridge DLL Caller
+
+	game
+		application maker
+
+	helper
+		convenient helper
+
+	hmidiout
+		MIDI effect sound caller
+
+	input
+		keyboard and joypad input integrated handler
+
+	map
+		map chip renderer
+
+	map_chara
+		map and chara compositor
+
+	pmr
+		Poor Man's Rasterizer
+
+	progressbar
+		progressbar renderer
+
+	rc
+		resource loader
+
+	sound
+		MCI/waveOut/DirectSound integrated handler
+		+ link : winmm.dll
+
+	timegettime
+		timeBeginPeriod() wrapper
+
+	transition
+		transition animator
+
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+/nonnon/neutral
+
+	[ ANSI/POSIX Helper ]
+
+
+	bmp
+		.bmp handler
+
+	bmp/all
+		.bmp processor
+
+	curico
+		.ico/.cur handler
+
+	dir
+		a sorted directory list maker
+
+	endian
+		run-time endian auto-changer
+
+	fft
+		Fast Fourier Transform
+
+	filer
+		file/folder handler
+
+	html
+		.html handler
+
+	ini
+		.ini handler
+
+	jpg
+		libjpeg caller
+
+	memory
+		memory integrity checker
+
+	midi
+		MIDI compiler
+
+	path
+		path handler
+
+	png
+		.png(Portable Network Graphics) handler
+
+	posix
+		POSIX wrapper
+
+	random
+		random wrapper
+
+	string
+		string filter
+
+	string_path
+		multi-path handler with no N_PATH_MAX limit
+
+	tar
+		.tar handler
+
+	time
+		date and time helper
+
+	thread
+		multi-thread helper
+
+	txt
+		text handler
+
+	type
+		general type definition
+
+	unicode
+		Unicode handler
+
+	vector
+		string vector
+
+	wav
+		.wav handler
+
+	wav/all
+		.wav processor
+
+	www
+		URL helper
+
+	zip
+		.zip handler
+
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+/nonnon/project
+
+	[ Nonnon Win Shared Resources ]
+ 
+		[!] : neutral, win32, game don't use these files
+
+
+	define_unicode.c
+		"#define UNICODE" one-stop switcher
+
+	ini2gdi.c
+		INI based bitmap maker
+
+	macro.c
+		general-purpose macros
+
+	rc.rc
+		version resource template
+
+	manifest.xml
+		XP visual style support
+
+	/readme
+		documentation files
+
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+/nonnon/win32
+
+	[ Win32 API Wrapper ]
+
+	ole/*
+		IDataObject
+		IDropSource
+		IDropTarget
+		IEnumFORMATETC
+		IPicture
+		IShellFolder
+		ITaskbarList
+
+	clipboard
+		clipboard handler
+
+	explorer
+		Explorer helper
+
+	gdi, gdi/*
+		n_bmp based GDI renderer
+
+	mapi
+		Mail Client Caller
+
+	mixer
+		MCI/CoreAudio main volume tweaker
+
+	registry
+		Windows Registry handler
+
+	resource
+		EXE resource handler
+
+	sysinfo
+		system information handler
+
+	uxtheme
+		Visual Style helper
+
+	win, win/*
+		window and controls handler
+		command-line parameter handler
+		resource handler
+		standard compliance enabler
+
+	win_calendar
+		calendar control maker
+
+	win_checkbox
+		fake checkbox for dark mode
+
+	win_colorpicker
+		color-chooser control maker
+
+	win_combobox
+		fake combobox for dark mode
+
+	win_filer.c
+		neutral/filer.c based GUI wrapper
+
+	win_groupbox
+		fake groupbox for dark mode
+
+	win_iconbutton
+		BS_ICON patcher + extender
+
+	win_inputpopup
+		screen keyboard control maker
+
+	win_listview
+		ListView helper
+
+	win_menu
+		system menu extender
+
+	win_popup
+		popup window helper
+
+	win_progressbar
+		classic-styled-labeled-progressbar maker
+
+	win_radiobutton
+		fake radiobutton for dark mode
+
+	win_richdialog
+		win32/gdi.c based modal dialog maker
+
+	win_scroll
+		scrollbar control helper
+
+	win_scrollbar
+		fake scrollbar for dark mode
+
+	win_scroller
+		label-value-scrollbar integrated handler
+
+	win_separator
+		labeled-horizontal-line maker
+
+	win_sizegrip
+		fake sizegrip for dark mode
+
+	win_smallbutton
+		static-based auto-system-colored small helper button maker
+
+	win_statusbar
+		common control's statusbar handler
+
+	win_statusbar_ownerdraw
+		fake statusbar for dark mode
+
+	win_systray
+		system tray icon handler
+
+	win_titlemenu
+		hook-based title menu replacer
+
+	win_txtbox
+		n_txt renderer
+
+	wintab
+		legacy WINTAB tablet API enabler
+
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
