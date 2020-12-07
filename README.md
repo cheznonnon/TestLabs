@@ -23,3 +23,6 @@ for learning global mouse hook.<br>
 
 Win9x are not supported, may be impossible.<br>
 Win10 is not supported because Win10 is so buggy.<br>
+
+Updated : 2020/12/07 17:45:50<br>
+jitter prevention is added.<br>
