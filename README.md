@@ -24,5 +24,8 @@ for learning global mouse hook.<br>
 Win9x are not supported, may be impossible.<br>
 Win10 is not supported because Win10 is so buggy.<br>
 
+currently, a debug window appears.<br>
+you can turn off by ShowWindow( SW_HIDE );.<br>
+
 Updated : 2020/12/07 17:45:50<br>
 jitter prevention is added.<br>
