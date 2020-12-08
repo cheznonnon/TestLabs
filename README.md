@@ -29,3 +29,7 @@ you can turn off by ShowWindow( SW_HIDE );.<br>
 
 Updated : 2020/12/07 17:45:50<br>
 jitter prevention is added.<br>
+
+Updated : 2020/12/08 17:28:03<br>
+Firefox is supported via sending WM_MOUSEWHEEL message.<br>
+Nonnon Apps support is added.<br>
