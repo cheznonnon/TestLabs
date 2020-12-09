@@ -13,7 +13,9 @@ MinGW 4.x cannot be uploaded by GitHub's size limit (25MB).<br>
 4. run .BAT<br>
 5. test it<br>
 
-# Wheel Axl Beta
+# Issues
+
+### Wheel Axl Beta
 
 Mouse Wheel Accelerator<br>
 
@@ -33,3 +35,8 @@ jitter prevention is added.<br>
 Updated : 2020/12/08 17:28:03<br>
 Firefox is supported via sending WM_MOUSEWHEEL message.<br>
 Nonnon Apps support is added.<br>
+
+Updated : 2020/12/09 17:32:14<br>
+better jitter prevention available.<br>
+release .EXE available.<br>
+GitHub Discussions are opened.<br>
