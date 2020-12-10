@@ -15,6 +15,11 @@ MinGW 4.x cannot be uploaded by GitHub's size limit (25MB).<br>
 
 # Issues
 
+### Project Nonnon 10 December
+
+GCC 3.x support is revived.<br>
+see https://cheznonnon.blogspot.com/ for details.<br>
+
 ### Wheel Axl Beta
 
 Mouse Wheel Accelerator<br>
@@ -24,10 +29,6 @@ for life without IntelliMouse/Mouse Keyboard Center<br>
 for learning global mouse hook.<br> 
 
 Win9x are not supported, may be impossible.<br>
-Win10 is not supported because Win10 is so buggy.<br>
-
-currently, a debug window appears.<br>
-you can turn off by ShowWindow( SW_HIDE );.<br>
 
 Updated : 2020/12/07 17:45:50<br>
 jitter prevention is added.<br>
@@ -40,3 +41,8 @@ Updated : 2020/12/09 17:32:14<br>
 better jitter prevention available.<br>
 release .EXE available.<br>
 GitHub Discussions are opened.<br>
+
+Updated : 2020/12/10 17:31:44<br>
+Win10 support is added.<br>
+Win10 needs WM_VSCROLL for Internet Explorer window wheeling.<br>
+better Nonnon Apps support is added.<br>
