@@ -50,3 +50,5 @@ better Nonnon Apps support is added.<br>
 Updated : 2020/12/11 17:46:19<br>
 a tray icon will be themed a little.<br>
 more patch code in Win10 support.<br>
+Win10 support may drop if more bugs will be found.<br>
+Microsoft have to fix this problem first.<br>
