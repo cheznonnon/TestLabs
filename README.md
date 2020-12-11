@@ -46,3 +46,7 @@ Updated : 2020/12/10 17:31:44<br>
 Win10 support is added.<br>
 Win10 needs WM_VSCROLL for Internet Explorer window wheeling.<br>
 better Nonnon Apps support is added.<br>
+
+Updated : 2020/12/11 17:46:19<br>
+a tray icon will be themed a little.<br>
+more patch code in Win10 support.<br>
