@@ -52,3 +52,8 @@ a tray icon will be themed a little.<br>
 more patch code in Win10 support.<br>
 Win10 support may drop if more bugs will be found.<br>
 Microsoft have to fix this problem first.<br>
+
+Updated : 2020/12/12 18:26:46<br>
+Win10 patch will not apply some windows like Start Menu / Settings / Explorer.<br>
+jitter prevention is re-tuned.<br>
+24px icon is re-tuned.<br>
