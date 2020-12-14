@@ -57,3 +57,7 @@ Updated : 2020/12/12 18:26:46<br>
 Win10 patch will not apply some windows like Start Menu / Settings / Explorer.<br>
 jitter prevention is re-tuned.<br>
 24px icon is re-tuned.<br>
+
+Updated : 2020/12/14 17:37:47<br>
+engine : sqrt() smooth acceleration avialble.<br>
+tray 32px icon re-tuned.<br>
