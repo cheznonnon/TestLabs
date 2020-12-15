@@ -59,5 +59,5 @@ jitter prevention is re-tuned.<br>
 24px icon is re-tuned.<br>
 
 Updated : 2020/12/14 17:37:47<br>
-engine : sqrt() smooth acceleration avialble.<br>
+engine : sqrt() smooth acceleration available.<br>
 tray 32px icon re-tuned.<br>
