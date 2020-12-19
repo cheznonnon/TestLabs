@@ -65,3 +65,6 @@ tray 32px icon re-tuned.<br>
 Updated : 2020/12/17 17:28:24<br>
 re-factored a little<br>
 jitter-prevention is re-tuned.<br>
+
+Updated : 2020/12/19 17:14:13<br>
+Win10 support is dropped.<br>
