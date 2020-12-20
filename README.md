@@ -15,7 +15,7 @@ MinGW 4.x cannot be uploaded by GitHub's size limit (25MB).<br>
 
 # Issues
 
-### Project Nonnon 15 December
+### Project Nonnon 20 December
 
 GCC 3.x support is revived.<br>
 see https://cheznonnon.blogspot.com/ for details.<br>
