@@ -2,7 +2,7 @@
 
 this is beta vesion for testing.<br>
 
-MinGW 3.x is not supported current 2020 Nov 30 release or earlier.<br>
+MinGW 3.x is not supported 2020 Nov 30 release or earlier.<br>
 MinGW 4.x cannot be uploaded by GitHub's size limit (25MB).<br>
 
 # Instructions
