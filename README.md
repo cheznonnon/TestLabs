@@ -15,11 +15,4 @@ MinGW 4.x cannot be uploaded by GitHub's size limit (25MB).<br>
 
 # Issues
 
-[ Nonnon Paint Beta ]<br>
-
-+ new thumbnail engine is implemented.
-+ but live redrawing has some glitch.
-+ currently, I cannot fix this problem.
-
-+ search a word "glitch" in nonnon_paint_thumbnail.c
-+ then comment-out gray painting and enable n_paint_thumbnail_refresh()
+curretly nothing.<br>
