@@ -19,3 +19,8 @@ MinGW 4.x cannot be uploaded by GitHub's size limit (25MB).<br>
 
 + 32bpp DIBSection based new engine available.<br>
 + accurate fade transition is implemented.<br>
+
+Updated : May 05
+
++ optimization is implemented.<br>
++ win_smallbutton_direct.c is included.<br>
