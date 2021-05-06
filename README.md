@@ -24,3 +24,8 @@ Updated : May 05
 
 + optimization is implemented.<br>
 + win_smallbutton_direct.c is included.<br>
+
+Updated : May 06
+
++ more optimization is implemented.<br>
++ many bugs are fixed.<br>
