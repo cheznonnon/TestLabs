@@ -27,5 +27,5 @@ Updated : May 05
 
 Updated : May 06
 
-+ more optimization is implemented.<br>
++ more optimizations are implemented.<br>
 + many bugs are fixed.<br>
