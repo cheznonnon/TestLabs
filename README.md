@@ -18,7 +18,7 @@ MinGW 4.x cannot be uploaded by GitHub's size limit (25MB).<br>
 [TxtBox Test]<br>
 
 + 32bpp DIBSection based new engine available.<br>
-+ accurate fade transition is implemented.<br>
++ accurate fade transition is implemented.(this fix is backported as Apr 30 #1 release.)<br>
 
 Updated : May 05
 
