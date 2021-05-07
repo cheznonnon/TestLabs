@@ -35,3 +35,9 @@ Updated : May 07
 
 + many bugs are fixed.<br>
 + Neko no Te is updated.<br>
+
+Updated : May 08
+
++ more optimizations are implemented.<br>
++ many bugs are fixed.<br>
++ Neko no Te is updated again.<br>
