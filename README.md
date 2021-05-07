@@ -30,3 +30,8 @@ Updated : May 06
 + more optimizations are implemented.<br>
 + many bugs are fixed.<br>
 + some member names are renamed.<br>
+
+Updated : May 07
+
++ many bugs are fixed.<br>
++ Neko no Te is updated.<br>
