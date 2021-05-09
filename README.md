@@ -47,3 +47,4 @@ Updated : May 09
 + many bugs are fixed.<br>
 + win_combobox.c uses win_smallbutton_direct.c.<br>
 + faster than older.<br>
++ new drag selection engine is implemented.<br>
