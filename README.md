@@ -41,3 +41,9 @@ Updated : May 08
 + more optimizations are implemented.<br>
 + many bugs are fixed.<br>
 + Neko no Te is updated again.<br>
+ 
+Updated : May 09
+
++ many bugs are fixed.<br>
++ win_combobox.c uses win_smallbutton_direct.c.<br>
++ faster than older.<br>
