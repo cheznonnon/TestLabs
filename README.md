@@ -48,3 +48,9 @@ Updated : May 09
 + win_combobox.c uses win_smallbutton_direct.c.<br>
 + faster than older.<br>
 + new drag selection engine is implemented.<br>
+
+Updated : May 10
+
++ many bugs are fixed.<br>
++ ONELINE : selection + scroll is fixed.<br>
++ faster than older.<br>
