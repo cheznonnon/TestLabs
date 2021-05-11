@@ -54,3 +54,8 @@ Updated : May 10
 + many bugs are fixed.<br>
 + ONELINE : selection + scroll is fixed.<br>
 + faster than older.<br>
+
+Updated : May 11
+
++ many bugs are fixed.<br>
++ faster than older.<br>
