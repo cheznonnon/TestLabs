@@ -64,3 +64,8 @@ Updated : May 12
 
 + many bugs are fixed.<br>
 + new shift dragging engine is implemented.<br>
+
+Updated : May 13
+
++ many bugs are fixed.<br>
++ faster than older.<br>
