@@ -69,3 +69,8 @@ Updated : May 13
 
 + many bugs are fixed.<br>
 + faster than older.<br>
+
+Updated : May 14
+
++ many bugs are fixed.<br>
++ ONELINE optimization is half implemented.<br>
