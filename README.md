@@ -74,3 +74,9 @@ Updated : May 14
 
 + many bugs are fixed.<br>
 + ONELINE optimization is half implemented.<br>
+
+Updated : May 15
+
++ many bugs are fixed.<br>
++ almost finished.<br>
++ ONELINE optimization is now abandoned.(hard to implement)<br>
