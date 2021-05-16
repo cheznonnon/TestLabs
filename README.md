@@ -80,3 +80,9 @@ Updated : May 15
 + many bugs are fixed.<br>
 + almost finished.<br>
 + ONELINE optimization is now abandoned.(hard to implement)<br>
+
+Updated : May 16
+
++ many bugs are fixed.<br>
++ shift dragging redraw error is fixed.<br>
++ a little slower than older.(some selecting area optimization turns OFF.)<br>
