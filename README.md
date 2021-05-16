@@ -84,5 +84,5 @@ Updated : May 15
 Updated : May 16
 
 + many bugs are fixed.<br>
-+ shift dragging redraw error is fixed.<br>
++ shift dragging problems are fixed.<br>
 + a little slower than older.(some selecting area optimization turns OFF.)<br>
