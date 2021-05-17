@@ -86,3 +86,9 @@ Updated : May 16
 + many bugs are fixed.<br>
 + shift dragging problems are fixed.<br>
 + a little slower than older.(some selecting area optimization turns OFF.)<br>
+
+Updated : May 17
+
++ many bugs are fixed.<br>
++ new shift dragging up/down engine available.<br>
++ new multi-instance game/transition.c available.<br>
