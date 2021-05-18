@@ -92,3 +92,8 @@ Updated : May 17
 + many bugs are fixed.<br>
 + new shift dragging up/down engine available.<br>
 + new multi-instance game/transition.c available.<br>
+
+Updated : May 18
+
++ faster than older : redraw count is reduced. clicking and dragging will be lighter.<br>
++ optimization code is refactored.<br>
