@@ -97,3 +97,8 @@ Updated : May 18
 
 + faster than older : redraw count is reduced. clicking and dragging will be lighter.<br>
 + optimization code is refactored.<br>
+
+Updated : May 19
+
++ many bugs are fixed.<br>
++ improvement on usability.<br>
