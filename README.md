@@ -103,3 +103,8 @@ Updated : May 19 #2
 + many bugs are fixed.<br>
 + improvement on usability.<br>
 + #2 : some regressions are fixed.<br>
+
+Updated : May 20
+
++ many bugs are fixed.<br>
++ auto grayed-out available.<br>
