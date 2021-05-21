@@ -108,3 +108,9 @@ Updated : May 20
 
 + many bugs are fixed.<br>
 + auto grayed-out available.<br>
+
+Updated : May 21
+
++ many bugs are fixed.<br>
++ ONELINE optimization is finally implemented.<br>
++ new padding render engine is implemented.<br>
