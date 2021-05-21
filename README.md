@@ -109,8 +109,9 @@ Updated : May 20
 + many bugs are fixed.<br>
 + auto grayed-out available.<br>
 
-Updated : May 21
+Updated : May 21 #2
 
 + many bugs are fixed.<br>
 + ONELINE optimization is finally implemented.<br>
 + new padding render engine is implemented.<br>
++ #2 : ExcludeClipRect() for a caret is missing.<br>
