@@ -116,7 +116,8 @@ Updated : May 21 #2
 + new padding render engine is implemented.<br>
 + #2 : ExcludeClipRect() for a caret is missing.<br>
 
-Updated : May 22
+Updated : May 22 #2
 
 + many bugs are fixed.<br>
 + Input Popup memory or handle leak problem is fixed.<br>
++ #2 : click selection anchor misbehave problem is fixed.<br>
