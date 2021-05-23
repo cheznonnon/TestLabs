@@ -121,3 +121,9 @@ Updated : May 22 #2
 + many bugs are fixed.<br>
 + Input Popup memory or handle leak problem is fixed.<br>
 + #2 : click selection anchor misbehave problem is fixed.<br>
+
+Updated : May 23
+
++ many bugs are fixed.<br>
++ Icon Button memory leak problem is fixed.<br>
++ new dakrmode theme available.<br>
