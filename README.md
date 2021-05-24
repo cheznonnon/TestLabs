@@ -126,7 +126,7 @@ Updated : May 23
 
 + many bugs are fixed.<br>
 + Icon Button memory leak problem is fixed.<br>
-+ new dakr mode theme available.<br>
++ new dark mode theme available.<br>
 
 Updated : May 24
 
