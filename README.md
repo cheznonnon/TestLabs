@@ -128,6 +128,7 @@ Updated : May 23
 + Icon Button memory leak problem is fixed.<br>
 + new dark mode theme available.<br>
 
-Updated : May 24
+Updated : May 24 #2
 
 + many improvements in dark mode.<br>
++ #2 : fixed : a caret is not drawn in multi-line selection.<br>
