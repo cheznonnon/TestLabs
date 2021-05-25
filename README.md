@@ -132,3 +132,8 @@ Updated : May 24 #2
 
 + many improvements in dark mode.<br>
 + #2 : fixed : a caret is not drawn in multi-line selection.<br>
+
+Updated : May 25
+
++ many bugs are fixed.<br>
++ more tweaks in dark mode.<br>
