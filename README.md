@@ -137,3 +137,9 @@ Updated : May 25
 
 + many bugs are fixed.<br>
 + more tweaks in dark mode.<br>
+
+Updated : May 26
+
++ many bugs and regressions are fixed.<br>
++ more tweaks in dark mode.<br>
+
