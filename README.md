@@ -143,3 +143,9 @@ Updated : May 26
 + many bugs and regressions are fixed.<br>
 + more tweaks in dark mode.<br>
 
+Updated : May 27
+
++ many bugs and regressions are fixed.<br>
++ input stopper while fading is removed.(smoother than older.)<br>
++ delete function is rewritten.(crash prevention is included.)<br>
++ improvement in Windows 10 dark mode.<br>
