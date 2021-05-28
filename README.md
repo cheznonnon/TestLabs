@@ -149,3 +149,10 @@ Updated : May 27
 + input stopper while fading is removed.(smoother than older.)<br>
 + delete function is rewritten.(crash prevention is included.)<br>
 + improvement in Windows 10 dark mode.<br>
+
+Updated : May 28
+
++ many bugs and regressions are fixed.<br>
++ Vista DWM contour engine is rewritten.<br>
++ text color in dark mode is re-tuned.(light gray not white) <br>
++ Nonnon Freecell is included for testing.<br>
