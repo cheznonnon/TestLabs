@@ -15,8 +15,16 @@ MinGW 4.x cannot be uploaded by GitHub's size limit (25MB).<br>
 
 # Issues
 
-[ 2021_07_07]<br>
+[ 2021_07_07 ]<br>
 
 * Nonnon Paint<br>
 multi-layer ultra-fast mode available.<br>
 maybe unstable.<br>
+
+[ 2021_07 07 #2 ]
+
+* Nonnon Paint<br>
+fixed redraw error after basic filters are applied.<br>
+
+* Wheel Axl<br>
+new engine available.<br>
