@@ -28,3 +28,8 @@ fixed redraw error after basic filters are applied.<br>
 
 * Wheel Axl<br>
 new engine available.<br>
+
+[ 2021_07_08 ]<br>
+
+* Nonnon Paint<br>
+redraw error when layer on/off is fixed.
