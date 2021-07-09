@@ -38,3 +38,6 @@ redraw error when layer on/off is fixed.
 
 * Nonnon Paint<br>
 fast layer switching available.<br>
+
+* CatPad / TxtBox<br>
+fast rendering available.<br>
