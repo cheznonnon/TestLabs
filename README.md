@@ -33,3 +33,8 @@ new engine available.<br>
 
 * Nonnon Paint<br>
 redraw error when layer on/off is fixed.
+
+[ 2021_07_09 ]<br>
+
+* Nonnon Paint<br>
+fast layer switching available.<br>
