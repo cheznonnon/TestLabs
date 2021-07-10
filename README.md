@@ -41,3 +41,9 @@ fast layer switching available.<br>
 
 * CatPad / TxtBox<br>
 fast rendering available.<br>
+
+[ 2021_07_10 ]<br>
+
+* Nonnon Paint<br>
+multi-layer : grabber : basic filter bug is fixed.<br>
+
