@@ -42,8 +42,9 @@ fast layer switching available.<br>
 * CatPad / TxtBox<br>
 fast rendering available.<br>
 
-[ 2021_07_10 #2 ]<br>
+[ 2021_07_10 #3 ]<br>
 
 * Nonnon Paint<br>
-multi-layer : grabber : basic filter bug is fixed.<br>
-multi-layer : grabber : ultra-fast mode : redraw error is fixed.<br>
+#1 : multi-layer : grabber : basic filter bug is fixed.<br>
+#2 : multi-layer : grabber : ultra-fast mode : redraw error is fixed.<br>
+#3 : TxtBox : margin color : the same of the last line is fixed.<br>
