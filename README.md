@@ -47,4 +47,6 @@ fast rendering available.<br>
 * Nonnon Paint<br>
 #1 : multi-layer : grabber : basic filter bug is fixed.<br>
 #2 : multi-layer : grabber : ultra-fast mode : redraw error is fixed.<br>
-#3 : TxtBox : margin color : the same of the last line is fixed.<br>
+
+* TxtBox<br>
+margin color : the same of the last line is fixed.<br>
