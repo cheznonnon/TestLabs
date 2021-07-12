@@ -50,3 +50,12 @@ fast rendering available.<br>
 
 * TxtBox<br>
 margin color : the same of the last line is fixed.<br>
+
+[ 2021_07_12 ]<br>
+
+* CatPad<br>
+smallbutton position code conflicts caret blinking.<br>
+
+* TxtBox<br>
+margin color : ONELINE : 2021_07_10 #3 is inaccurate.<br>
+line number : faster than older.(experimental)<br>
