@@ -59,3 +59,14 @@ smallbutton position code conflicts caret blinking.<br>
 * TxtBox<br>
 margin color : ONELINE : 2021_07_10 #3 is inaccurate.<br>
 line number : faster than older.(experimental)<br>
+
+[ 2021_07_13 ]<br>
+
+* TxtBox<br>
+NEW_FEATURE : ASCII/Unicode font cache is implemented.(experimental)<br>
+
+* Nonnon Paint<br>
+FIXED : grabber : you cannot save as a grabbed area.<br>
+
+* neutral/bmp.c<br>
+NEW_FEATURE : pal2rgb() is renamed as argb2colorref()<br>
