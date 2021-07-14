@@ -70,3 +70,9 @@ FIXED : grabber : you cannot save as a grabbed area.<br>
 
 * neutral/bmp.c<br>
 NEW_FEATURE : pal2rgb() is renamed as argb2colorref()<br>
+
+[ 2021_07_14 ]<br>
+
+* TxtBox<br>
+NEW_FEATURE : proportional font is supported.<br>
+
