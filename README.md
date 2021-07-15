@@ -76,3 +76,7 @@ NEW_FEATURE : pal2rgb() is renamed as argb2colorref()<br>
 * TxtBox<br>
 NEW_FEATURE : proportional font is supported.<br>
 
+[ 2021_07_15 ]<br>
+
+* Windowing<br>
+FIXED : n_win_set() : scrollbar calculation is inaccurate.<br>
