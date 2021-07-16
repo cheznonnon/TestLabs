@@ -80,3 +80,8 @@ NEW_FEATURE : proportional font is supported.<br>
 
 * Windowing<br>
 FIXED : n_win_set() : scrollbar calculation is inaccurate.<br>
+
+[ 2021_07_16 ]<br>
+
+* TxtBox<br>
+NEW_FEATURE : more responsive than older.<br>
