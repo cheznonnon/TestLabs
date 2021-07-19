@@ -92,4 +92,4 @@ NEW_FEATURE : more responsive than older.<br>
 NEW_FEATURE : new engine available.<br>
 
 * Nonnon Paint<br>
-NEW_FEATURE : Multi-Layer : Grabber : Whole Grab : multi-threading abailable.<br>
+NEW_FEATURE : Multi-Layer : Grabber : Whole Grab : multi-threading available.<br>
