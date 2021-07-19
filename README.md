@@ -85,3 +85,11 @@ FIXED : n_win_set() : scrollbar calculation is inaccurate.<br>
 
 * TxtBox<br>
 NEW_FEATURE : more responsive than older.<br>
+
+[ 2021_07_19 ]<br>
+
+* Wheel Axl<br>
+NEW_FEATURE : new engine available.<br>
+
+* Nonnon Paint
+NEW_FEATURE : Multi-Layer : Grabber : Whole Grab : multi-threading abailable.<br>
