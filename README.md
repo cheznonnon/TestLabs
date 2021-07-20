@@ -93,3 +93,8 @@ NEW_FEATURE : new engine available.<br>
 
 * Nonnon Paint<br>
 NEW_FEATURE : Multi-Layer : Grabber : Whole Grab : multi-threading available.<br>
+
+[ 2021_07_20 ]<br>
+
+* Nonnon Paint<br>
+NEW_FEATURE : Multi-Layer : Resizer : multi-threading available.<br>
