@@ -98,3 +98,8 @@ NEW_FEATURE : Multi-Layer : Grabber : Whole Grab : multi-threading available.<br
 
 * Nonnon Paint<br>
 NEW_FEATURE : Multi-Layer : Resizer : multi-threading available.<br>
+
+[ 2021_07_21 ]<br>
+
+* Nonnon Paint<br>
+NEW_FEATURE : Multi-Layer : Whole Grab : Drop2Save : implemented.<br>
