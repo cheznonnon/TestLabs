@@ -107,10 +107,10 @@ NEW_FEATURE : Multi-Layer : Whole Grab : Drop2Save : implemented.<br>
 [ 2021_07_22 ]<br>
 
 * Nonnon Paint<br>
-NEW_FEATURE : Mulit-Layer : Grabber : faster than older.<br>
-NEW_FEATURE : Grabber : border : easy to recognize.<br>
+NEW_FEATURE : Grabber : Selection : faster than older.<br>
 
-[ 2021_07_22 ]<br>
+[ 2021_07_23 ]<br>
 
 * Nonnon Paint<br>
-NEW_FEATURE : Grabber : Selection : faster than older.<br>
+NEW_FEATURE : Mulit-Layer : Grabber : faster than older.<br>
+NEW_FEATURE : Grabber : border : easy to recognize.<br>
