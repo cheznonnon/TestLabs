@@ -114,3 +114,11 @@ NEW_FEATURE : Grabber : Selection : faster than older.<br>
 * Nonnon Paint<br>
 NEW_FEATURE : Mulit-Layer : Grabber : faster than older.<br>
 NEW_FEATURE : Grabber : border : easy to recognize.<br>
+
+[ 2021_07_24 ]<br>
+
+* Nonnon Paint<br>
+NEW_FEATURE : Mulit-Layer : Whole Grab : faster than older in some cases.<br>
+
+* neutral/bmp.c : n_bmp_flush()
+NEW_FEATURE : much faster when 0x00000000 and 0xffffffff
