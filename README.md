@@ -122,3 +122,11 @@ NEW_FEATURE : Mulit-Layer : Whole Grab : faster than older in some cases.<br>
 
 * neutral/bmp.c : n_bmp_flush()<br>
 NEW_FEATURE : much faster when 0x00000000 and 0xffffffff.<br>
+
+[ 2021_07_25 ]<br>
+
+* Nonnon Paint<br>
+FIXED : there is defference between a previewed image and a finished image.<br>
+
+* CatPad / TxtBox<br>
+NEW_FEATURE : Ctrl+Tab/Backspace : multi-line tab adder/remover.<br>
