@@ -136,3 +136,7 @@ NEW_FEATURE : Ctrl+Tab/Backspace : multi-line tab adder/remover.<br>
 * FIXED : Win8.1 or later : checkbox/radiobutton high-DPI not beautiful problem.<br>
 
 * NEW_FEATURE : pal2rgb() rgb2pal() are renamed as argb2colorref() colorref2argb().<br>
+
+[ 2021_07_28 ]<br>
+
+* NEW_FEATURE : scroller label will be ownerdrawn.(for darkmode)<br>
