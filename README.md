@@ -140,3 +140,9 @@ NEW_FEATURE : Ctrl+Tab/Backspace : multi-line tab adder/remover.<br>
 [ 2021_07_28 ]<br>
 
 * NEW_FEATURE : scroller label will be ownerdrawn.(for darkmode)<br>
+
+[ 2021_07_29 ]<br>
+
+* FIXED : CatPad / TxtBox : tab will be added to empty line.<br>
+* FIXED : TxtBox : ONELINE : you cannot edit when a long text.<br>
+
