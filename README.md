@@ -20,3 +20,8 @@ MinGW 4.x cannot be uploaded by GitHub's size limit (25MB).<br>
 + BUGFIX : TxtBox : caret clamp problem.<br>
 + NEW_FEATURE : Fluent UI available.<br>
 + NEW_FEATURE : Nonnon Typing is released.<br>
+
+[ Aug 11 ]<br>
+
++ BUGFIX : Win10 accent color support.<br>
++ BUGFIX : Watchcat : not beautiful when 1%.<br>
