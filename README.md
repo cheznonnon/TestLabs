@@ -15,6 +15,10 @@ MinGW 4.x cannot be uploaded by GitHub's size limit (25MB).<br>
 
 # Issues
 
+[ All ]<br>
+
++ GDI+ DLL is important to work.<br>
+
 [ Aug 10 ]<br>
 
 + BUGFIX : TxtBox : caret clamp problem.<br>
