@@ -29,3 +29,7 @@ MinGW 4.x cannot be uploaded by GitHub's size limit (25MB).<br>
 
 + BUGFIX : Win10 accent color support.<br>
 + BUGFIX : Watchcat : not beautiful when 1%.<br>
+
+[ Aug 12 ]<br>
+
++ NEW_FEATURE : Fluent UI : popup menu available.<br>
