@@ -33,3 +33,12 @@ MinGW 4.x cannot be uploaded by GitHub's size limit (25MB).<br>
 [ Aug 12 ]<br>
 
 + NEW_FEATURE : Fluent UI : popup menu available.<br>
+
+[ Aug 13 ]<br>
+
++ NEW_FEATURE : Fluent UI : Context Menu : semi-transparent effect available.<br>
+
++ BUGFIX : Fluent UI : Context Menu : Win10 : when DPI is changed : drop shadow misbehaves.<br>
++ BUGFIX : Fluent UI : Context Menu : Accordion UI : drop shadow misbehaves.<br>
++ BUGFIX : Checkbox : margin between check and text is too narrow.<br>
++ BUGFIX : TxtBox : horizontal scrollbar : page is insufficient in some cases.<br>
