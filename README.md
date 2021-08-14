@@ -42,3 +42,11 @@ MinGW 4.x cannot be uploaded by GitHub's size limit (25MB).<br>
 + BUGFIX : Fluent UI : Context Menu : Accordion UI : drop shadow misbehaves.<br>
 + BUGFIX : Checkbox : margin between check and text is too narrow.<br>
 + BUGFIX : TxtBox : horizontal scrollbar : page is insufficient in some cases.<br>
+
+[ Aug 14 ]<br>
+
++ NEW_FEATURE : Fluent UI : menu has blurred background.<br>
++ NEW_FEATURE : Fluent UI : menu disabled text color will be thinner.<br>
+
++ BUGFIX : IconButton : hover misbehave problem,<br>
++ BUGFIX : TxtBox : auto-scroll usability problem.<br>
