@@ -50,3 +50,10 @@ MinGW 4.x cannot be uploaded by GitHub's size limit (25MB).<br>
 
 + BUGFIX : IconButton : hover misbehave problem,<br>
 + BUGFIX : TxtBox : auto-scroll usability problem.<br>
+
+[ Aug 15 ]<br>
+
+BUGFIX : OrangeCat : Fluent UI : Simple Menu : Blurred Background : Accordion : not sync when changed.<br>
+BUGFIX : TxtBox : auto-scroll : once fixed but not fixed yet.<br>
+BUGFIX : Scrollbar : Fluent UI : not Dark Mode : edge color is inaccurate.<br>
+BUGFIX : Icon Button : flashing when callback is heavy.<br>
