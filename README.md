@@ -57,3 +57,9 @@ BUGFIX : OrangeCat : Fluent UI : Simple Menu : Blurred Background : Accordion : 
 BUGFIX : TxtBox : auto-scroll : once fixed but not fixed yet.<br>
 BUGFIX : Scrollbar : Fluent UI : not Dark Mode : edge color is inaccurate.<br>
 BUGFIX : Icon Button : flashing when callback is heavy.<br>
+
+[ Aug 17 ]
+
+NEW_FEATURE : win32/win_button.c : released : new version of win_iconbutton.c.<br>
+
+BUGFIX : CatPad : crash when dragged.<br>
