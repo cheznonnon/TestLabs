@@ -68,3 +68,7 @@ BUGFIX : CatPad : crash when dragged.<br>
 
 BUGFIX : win32/win_button.c : non-darkmode : border is inaccurate.<br>
 BUGFIX : win32/win_button.c : disabled state is not working.<br>
+
+[ Aug 17 #3 ]<br>
+
+BUGFIX : win32/win_button.c : disabled state misbehaves.<br>
