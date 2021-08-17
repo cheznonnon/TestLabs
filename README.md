@@ -58,8 +58,13 @@ BUGFIX : TxtBox : auto-scroll : once fixed but not fixed yet.<br>
 BUGFIX : Scrollbar : Fluent UI : not Dark Mode : edge color is inaccurate.<br>
 BUGFIX : Icon Button : flashing when callback is heavy.<br>
 
-[ Aug 17 ]
+[ Aug 17 ]<br>
 
 NEW_FEATURE : win32/win_button.c : released : new version of win_iconbutton.c.<br>
 
 BUGFIX : CatPad : crash when dragged.<br>
+
+[ Aug 17 #2 ]<br>
+
+BUGFIX : win32/win_button.c : non-darkmode : border is inaccurate.<br>
+BUGFIX : win32/win_button.c : disabled state is not working.<br>
