@@ -72,3 +72,16 @@ BUGFIX : win32/win_button.c : disabled state is not working.<br>
 [ Aug 17 #3 ]<br>
 
 BUGFIX : win32/win_button.c : disabled state misbehaves.<br>
+
+[ Aug 18 ]<br>
+
+NEW_FEATURE : win32/win_button.c : n_win_button_forced() : forced status change.<br>
+NEW_FEATURE : win32/win_button.c : default state is supported.<br>
+NEW_FEATURE : win32/win_button.c : Light Theme : more beautiful than older.<br>
+
+BUGFIX : Nonnon Paint : on faster machine like VirtualBox : some UI disappears.<br>
+BUGFIX : Nonnon Paint : Fluent UI : Classic : many bugs are fixed.<br>
+BUGFIX : Nonnon Paint : icon buttons : not updated when wheeling.<br>
+BUGFIX : TxtBox : left side margin is insufficient when horizontal scroll is needed.<br>
+BUGFIX : win32/win_button.c : WinVista/7 : DWM : Fluent UI : corner problem.<br>
+BUGFIX : Toolband : WinVista/7 : UxTheme : misbehave when inactive state.<br>
