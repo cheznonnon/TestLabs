@@ -85,3 +85,13 @@ BUGFIX : Nonnon Paint : icon buttons : not updated when wheeling.<br>
 BUGFIX : TxtBox : left side margin is insufficient when horizontal scroll is needed.<br>
 BUGFIX : win32/win_button.c : WinVista/7 : DWM : Fluent UI : corner problem.<br>
 BUGFIX : Toolband : WinVista/7 : UxTheme : misbehave when inactive state.<br>
+
+[ Aug 19 ]<br>
+
+NEW_FEATURE : Fluent UI : Simple Menu : System Compliance : drop shadow on/off available.<br>
+NEW_FEATURE : win32/win_button.c : faster than older.<br>
+NEW_FEATURE : win32/win_simplemenu.c : experimental Aero Glass support is added.<br>
+
+BUGFIX : Fluent UI : Simple Menu : Non-32bpp Display : crash.<br>
+BUGFIX : Fluent UI : Simple Menu : many bugs are fixed.<br>
+BUGFIX : OrangeCat : zebra stripe : background color is inaccurate.<br>
