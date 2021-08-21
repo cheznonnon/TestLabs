@@ -95,3 +95,10 @@ NEW_FEATURE : win32/win_simplemenu.c : experimental Aero Glass support is added.
 BUGFIX : Fluent UI : Simple Menu : Non-32bpp Display : crash.<br>
 BUGFIX : Fluent UI : Simple Menu : many bugs are fixed.<br>
 BUGFIX : OrangeCat : zebra stripe : background color is inaccurate.<br>
+
+[ Aug 21 ]<br>
+
+NEW_FEATURE : Nonnon Typing : initial screen is added.<br>
+NEW_FEATURE : Simple Menu : Fluent UI : blur is revived.<br>
+
+BUGFIX : Simple Menu : always drawn when calculation only.<br>
