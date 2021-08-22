@@ -102,3 +102,13 @@ NEW_FEATURE : Nonnon Typing : initial screen is added.<br>
 NEW_FEATURE : Simple Menu : Fluent UI : blur is revived.<br>
 
 BUGFIX : Simple Menu : always drawn when calculation only.<br>
+
+[ Aug 22 ]<br>
+
+NEW_FEATURE : Marie : Popup : Fluent UI : implemented.<br>
+NEW_FEATURE : Input Popup : Fluent UI : implemented.<br>
+NEW_FEATURE : TxtBox : ONELINE_ROUNDRC : LISTBOX is supported.<br>
+NEW_FEATURE : CatPad/Nyaurism/Pen Trainer : Fluent UI : round rect is implemented.<br>
+
+BUGFIX : Simple Menu : Fluent UI : Blurred Background : slow sync problem.<br>
+BUGFIX : win32/win_button.c : many bugs are fixed.<br>
