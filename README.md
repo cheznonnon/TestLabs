@@ -112,3 +112,11 @@ NEW_FEATURE : CatPad/Nyaurism/Pen Trainer : Fluent UI : round rect is implemente
 
 BUGFIX : Simple Menu : Fluent UI : Blurred Background : slow sync problem.<br>
 BUGFIX : win32/win_button.c : many bugs are fixed.<br>
+
+[ Aug 22 ]<br>
+
+NEW_FEATURE : Listbox : Fluent UI : round rect is implemented.<br>
+
+BUGFIX : ProjectChecker : regression : pressing effect is broken.<br>
+BUGFIX : TxtBox : NO_FOCUS_CHANGE : not working.<br>
+BUGFIX : Fluent UI : border is not beautiful.<br>
