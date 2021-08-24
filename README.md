@@ -120,3 +120,10 @@ NEW_FEATURE : Listbox : Fluent UI : round rect is implemented.<br>
 BUGFIX : ProjectChecker : regression : pressing effect is broken.<br>
 BUGFIX : TxtBox : NO_FOCUS_CHANGE : not working.<br>
 BUGFIX : Fluent UI : border is not beautiful.<br>
+
+[ Aug 24 ]<br>
+
+NEW_FEATURE : Combobox : Fluent UI : round rect is implemented.<br>
+
+BUGFIX : Button : logic : many bugs are fixed.<br>
+BUGFIX : Rich Dialog : regression : title is missing.<br>
