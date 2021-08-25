@@ -127,3 +127,15 @@ NEW_FEATURE : Combobox : Fluent UI : round rect is implemented.<br>
 
 BUGFIX : Button : logic : many bugs are fixed.<br>
 BUGFIX : Rich Dialog : regression : title is missing.<br>
+
+[ Aug 25 ]<br>
+
+NEW_FEATURE : n_bmp_roundrect_detect() : 10% faster than older.<br>
+NEW_FEATURE : Fluent UI : round parameter : re-tuend.<br>
+
+BUGFIX : TxtBox : ONELINE : Fluent UI : Non-Darkmode : Corners : inaccurate color is used.<br>
+BUGFIX : Nonnon Paint : Layer Window : Rename : position and size are inaccurate.<br>
+BUGFIX : TxtBox : LISTBOX : regression : padding is not clipped.<br>
+BUGFIX : Fluent UI : WinXP : many bugs are fixed.<br>
+BUGFIX : Fluent UI : Win2000 : many bugs are fixed.<br>
+BUGFIX : All : graphical glitch is reduced.<br>
