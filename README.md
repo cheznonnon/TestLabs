@@ -139,3 +139,11 @@ BUGFIX : TxtBox : LISTBOX : regression : padding is not clipped.<br>
 BUGFIX : Fluent UI : WinXP : many bugs are fixed.<br>
 BUGFIX : Fluent UI : Win2000 : many bugs are fixed.<br>
 BUGFIX : All : graphical glitch is reduced.<br>
+
+[ Aug 26 ]
+
+NEW_FEATURE : Fluent UI : Simple Menu : Aero Mode is implemented.<br>
+NEW_FEATURE : TxtBox : USE_INPUT_POPUP is obsoleted, use AUTO_FOCUS_RECT instead.(default is off)<br>
+
+BUGFIX : TxtBox and Input Popup : focus frame blinks.<br>
+BUGFIX : Button : Dark Mode : WinVista : frame size is inaccurate.<br>
