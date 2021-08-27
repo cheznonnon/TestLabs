@@ -147,3 +147,18 @@ NEW_FEATURE : TxtBox : USE_INPUT_POPUP is obsoleted, use AUTO_FOCUS_RECT instead
 
 BUGFIX : TxtBox and Input Popup : focus frame blinks.<br>
 BUGFIX : Button : Dark Mode : WinVista : frame size is inaccurate.<br>
+
+[ Aug 27 ]<br>
+
+NEW_FEATURE : Calendar : Fluent UI : implemented.<br>
+NEW_FEATURE : TxtBox : LISTBOX : Fluent UI : round rect selection is revived.<br>
+NEW_FEATURE : All : GUI : more margin is added.<br>
+NEW_FEATURE : Fluent UI : n_win_fluent_ui_draw_roundrect() : faster than older.<br>
+NEW_FEATURE : Color Picker : Fluent UI : implemented.<br>
+NEW_FEATURE : Combobox Popup : Fluent UI : implemented.<br>
+
+BUGFIX : All : Fluent UI : round rect always when off by INI file.<br>
+BUGFIX : TxtBox : Edit Box : right side margin is inaccurate.<br>
+BUGFIX : Nonnon Paint : Resizer : controls blink when combo is selected.<br>
+BUGFIX : Win95 : many bugs are fixed.<br>
+BUGFIX : Combobox : typo in HWND property is fixed.<br>
