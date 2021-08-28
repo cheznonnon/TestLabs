@@ -162,3 +162,15 @@ BUGFIX : TxtBox : Edit Box : right side margin is inaccurate.<br>
 BUGFIX : Nonnon Paint : Resizer : controls blink when combo is selected.<br>
 BUGFIX : Win95 : many bugs are fixed.<br>
 BUGFIX : Combobox : typo in HWND property is fixed.<br>
+
+[ Aug 28 ]<br>
+
+NEW_FEATURE : Nonnon Paint : padding is added.<br>
+NEW_FEATURE : Project Checker : padding is added.<br>
+NEW_FEATURE : OrangeCat : Breadcrumb Address Band : DnD : wait available.<br>
+NEW_FEATURE : Button : more robust than older.<br>
+
+BUGFIX : Simple Menu : Win10 : Fluent UI : HRGN : black screen problem.<br>
+BUGFIX : Simple Menu : WinVista/7 : Aero Mode : black screen problem.<br>
+BUGFIX : Combobox : regression : Win2000 : HRGN : slide effect is not working.<br>
+BUGFIX : Neko no Te : Input Popup : focus border misbehaves.<br>
