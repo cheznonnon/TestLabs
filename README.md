@@ -174,3 +174,11 @@ BUGFIX : Simple Menu : Win10 : Fluent UI : HRGN : black screen problem.<br>
 BUGFIX : Simple Menu : WinVista/7 : Aero Mode : black screen problem.<br>
 BUGFIX : Combobox : regression : Win2000 : HRGN : slide effect is not working.<br>
 BUGFIX : Neko no Te : Input Popup : focus border misbehaves.<br>
+
+[ Aug 29 ]<br>
+
+NEW_FEATURE : Button : re-tuned.<br>
+
+BUGFIX : Combobox : Classic Style : border is inaccurate.<br>
+BUGFIX : CatPad : use-after-free bug is fixed.<br>
+BUGFIX : Darkmode : Button : border is not drawn.<br>
