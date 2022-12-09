@@ -15,4 +15,6 @@ MinGW 4.x cannot be uploaded by GitHub's size limit (25MB).<br>
 
 # Issues
 
-Currently nothing.<br>
+Nonnon for Mac December Version available.<br>
+
+I might be caught a COVID-19. so I've decided to rest this release.<br>
