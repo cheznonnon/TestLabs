@@ -20,3 +20,5 @@ Nonnon for Mac December Version available.<br>
 I might be caught a COVID-19. so I've decided to rest this release.<br>
 
 see InfoCenter for ChangeLog.<br>
+
+Nonnon for Mac Source needs "nonnon" folder in project_nonnon.zip<br>
