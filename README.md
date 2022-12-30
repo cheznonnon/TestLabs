@@ -15,11 +15,4 @@ MinGW 4.x cannot be uploaded by GitHub's size limit (25MB).<br>
 
 # Issues
 
-Nonnon for Mac December Version available.<br>
-
-I might have caught a COVID-19. so I've decided to rest this release.<br>
-(I'm OK after 5 days passed.)<br>
-
-see InfoCenter for ChangeLog.<br>
-
-"Nonnon for Mac Source" needs "nonnon" folder in "project_nonnon.zip". merge simply.<br>
+currently nothing.
