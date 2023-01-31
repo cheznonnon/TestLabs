@@ -5,7 +5,7 @@ this is beta vesion for testing.<br>
 MinGW 3.x is not supported 2020 Nov 30 release or earlier.<br>
 MinGW 4.x cannot be uploaded by GitHub's size limit (25MB).<br>
 
-# Instructions
+# Instructions (Win32)
 
 1. download MinGW and Test .ZIP<br>
 2. unlock security feature of Windows and unzip them (use arcdrop.exe if you want)<br>
@@ -15,4 +15,5 @@ MinGW 4.x cannot be uploaded by GitHub's size limit (25MB).<br>
 
 # Issues
 
-currently nothing.
+Nonnon for Mac 2023 February edition available.<br>
+see InfoCenter for ChangeLog.<br>
