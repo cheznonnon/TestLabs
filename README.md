@@ -15,4 +15,5 @@ MinGW 4.x cannot be uploaded by GitHub's size limit (25MB).<br>
 
 # Issues
 
-currently nothing .<br>
+Nonnon for Mac March 2023 available.<br>
+see InfoCenter for ChangeLogs.<br>
